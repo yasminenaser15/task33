@@ -11,12 +11,12 @@ namespace task33
         private string isbn;
         private bool isAvailable;
 
-        public BOOK(string title, string author, string isbn, bool isAvailable = true)
+        public BOOK(string title, string author, string isbn)
         {
             this.title = title;
             this.author = author;
             this.isbn = isbn;
-            this.isAvailable = isAvailable;
+            this.isAvailable = true;
         }
 
         public string Title
